@@ -1,0 +1,13 @@
+/* 모든 요소 초기화 (여백 제거 및 box-sizing 설정) */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* 작업이름들 저 앞 부분 수정하면 좋겠 */
+.cv{
+  padding: 2px 2px;
+  color: blue;
+  
+}

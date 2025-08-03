@@ -1,0 +1,81 @@
+/* 모든 요소 초기화 (여백 제거 및 box-sizing 설정) */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* 작업이름들 저 앞 부분 수정하면 좋겠 */
+.cv{
+  padding: 2px 2px;
+  color: blue;
+  
+}
+
+/* 작업이름들 근데 너무 뚱뚱해잉 */
+a:hover{
+    background-color: lightgreen;
+}
+
+
+/* 제목 스타일 */
+h1 {
+  font-size: 100px;
+  color: blue;
+  margin: 20px;
+  text-align: center;
+}
+
+
+
+/* 한용파 장예원과 함께헙니당*/
+p {
+  font-size: 16px;
+  line-height: 1.5;
+  margin: 0px;
+  text-align: center;
+}
+
+/* 이미지 크기와 여백 조정 */
+img {
+  display: block;
+  width: 1400px;
+  margin: 60px auto;
+}
+
+/* 링크 스타일 */
+
+
+a:hover {
+  text-decoration: underline;
+}
+
+
+
+
+
+.blue-box {
+  width: 40px;
+  height: 40px;
+  background-color: blue;
+  position: fixed;
+  bottom: 20px;
+  right: 30px; /* 동그라미의 left + width + 여백 (20 + 30 + 10) */
+}
+
+.blue-circle {
+  position: fixed;
+  bottom: 20px;
+  left: 20px;
+  width: 50px;
+  height: 50px;
+  background-color: blue;
+  border-radius: 50%;
+  z-index: 1000;
+}
+
+
+
+
+
+
